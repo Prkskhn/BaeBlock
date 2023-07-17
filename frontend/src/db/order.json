@@ -1,0 +1,97 @@
+[
+  {
+    "OrderID": 0,
+    "cus_address": "서울 강남구 선릉로93길 22",
+    "sto_address": "서울 강남구 선릉로 429",
+    "deliveryFee": 990,
+    "deliveryTip": 200,
+    "storeName": "버거킹",
+    "orderMenu": [
+      {
+        "foodname": "치즈와퍼",
+        "price": 8600,
+        "quantity": 1
+      },
+      {
+        "foodname": "제로콜라",
+        "price": 1400,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "OrderID": 1,
+    "cus_address": "서울 강남구 테헤란로 335",
+    "sto_address": "서울 강남구 테헤란로64길 18",
+    "deliveryFee": 1350,
+    "deliveryTip": 0,
+    "storeName": "스타벅스",
+    "orderMenu": [
+      {
+        "foodname": "아이스아메리카노",
+        "price": 4500,
+        "quantity": 2
+      }
+    ]
+  },
+  {
+    "OrderID": 2,
+    "cus_address": "서울 강남구 선릉로93길 22",
+    "sto_address": "서울 강남구 봉은사로 627",
+    "deliveryFee": 1850,
+    "deliveryTip": 500,
+    "storeName": "써브웨이",
+    "orderMenu": [
+      {
+        "foodname": "이탈리안 비엠티",
+        "price": 6900,
+        "quantity": 1
+      },
+      {
+        "foodname": "제로콜라",
+        "price": 2200,
+        "quantity": 1
+      },
+      {
+        "foodname": "더블 초코칩 쿠키",
+        "price": 1300,
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "OrderID": 3,
+    "cus_address": "서울 성동구 둘레15길 7",
+    "sto_address": "서울 성동구 성덕정길 131-8",
+    "deliveryFee": 1350,
+    "deliveryTip": 0,
+    "storeName": "소담 칼국수",
+    "orderMenu": [
+      {
+        "foodname": "칼국수",
+        "price": 8000,
+        "quantity": 3
+      }
+    ]
+  },
+  {
+    "OrderID": 4,
+    "cus_address": "서울 성동구 둘레15길 7",
+    "sto_address": "서울 성동구 연무장길 45",
+    "deliveryFee": 1850,
+    "deliveryTip": 200,
+    "storeName": "소문난 성수 감자탕",
+    "orderMenu": [
+      {
+        "foodname": "감자탕(소)",
+        "price": 27000,
+        "quantity": 1
+      },
+      {
+        "foodname": "뼈추가",
+        "price": 11000,
+        "quantity": 1
+      }
+    ]
+  }
+]

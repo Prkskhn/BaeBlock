@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'SUIT-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2')
+    format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@layer components {
+  .menu-style {
+  }
+  .btn-style {
+    @apply w-[276px] h-[52px] rounded-[12px] font-bold text-[20px];
+  }
+
+  .basic-shadow {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  .up-shadow {
+    box-shadow: 0 -2px 4px 0 rgba(0, 0, 0, 0.2);
+    /* 수평 수직 블러 확장 */
+  }
+
+  .solid-shadow {
+    box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.15);
+  }
+
+  .category-shadow {
+    box-shadow: 0px 1px 1px 0px rgba(178, 178, 193, 0.25);
+  }
+
+  .yellow-shadow {
+    box-shadow: 0px 4px 0px 0px #ffc805;
+  }
+
+  .gray-shadow {
+    box-shadow: 0px 4px 0px 0px #b2b2c1;
+  }
+
+  .red-shadow {
+    box-shadow: 0px 2px 0px 0px #c72121;
+  }
+  .noDrag {
+    user-drag: none;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+  }
+
+  .regist-entry {
+    opacity: 0;
+    transform: translateY(-20px);
+    animation-name: slide-down;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes slide-down {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .fade-in-out {
+    animation-name: fadeInOut;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+  }
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+      transform: translateY(0px);
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(-5px);
+    }
+  }
+}

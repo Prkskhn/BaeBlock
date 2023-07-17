@@ -1,0 +1,6 @@
+테일윈드 유용한 속성 정리
+
+1. rider_deliverySatatus에서 상단 주소 div에 적용한 속성
+whitespace-nowrap 클래스를 사용하여 텍스트가 줄 바꿈되지 않도록 합니다.
+overflow-hidden 클래스를 사용하여 div 범위를 넘어서는 텍스트가 숨겨지도록 합니다.
+overflow-ellipsis 클래스를 사용하여 텍스트가 div 너비를 초과할 경우 줄임표 (...)를 표시하도록 합니다.

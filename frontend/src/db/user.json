@@ -1,0 +1,615 @@
+{
+  "customer": [
+    {
+      "nickname": "제네시스",
+      "wallet": "0x3b0A2c32055d72803f12BCa33bb53B3AAC4bEcdB",
+      "cus_address": "서울 강남구 선릉로93길 22",
+      "orderList": {
+        "id": 0,
+        "storeName": "버거킹",
+        "wishList": [
+          {
+            "foodname": "치즈와퍼",
+            "cost": 8600,
+            "quantity": 1,
+            "detail": ""
+          },
+          {
+            "foodname": "제로콜라",
+            "cost": 1400,
+            "quantity": 1,
+            "detail": "L"
+          }
+        ],
+        "cus_address": "서울 강남구 선릉로93길 22",
+        "deliveryFee": 990,
+        "deliveryTip": 500,
+        "distance": 1
+      },
+      "BBCoin": 15000
+    },
+    {
+      "nickname": "사이온",
+      "wallet": "0xf341E2A28B4C71538A92Ff674D8decd9E9C45Bff",
+      "cus_address": "서울 강남구 선릉로93길 22",
+      "orderList": {
+        "id": 1,
+        "storeName": "써브웨이",
+        "wishList": [
+          {
+            "foodname": "치즈와퍼",
+            "cost": 8600,
+            "quantity": 1,
+            "detail": ""
+          },
+          {
+            "foodname": "코카콜라",
+            "cost": 3100,
+            "quantity": 1,
+            "detail": "L"
+          }
+        ],
+        "cus_address": "서울 강남구 선릉로93길 22",
+        "deliveryFee": 990,
+        "deliveryTip": 200,
+        "distance": 1
+      },
+      "BBCoin": 15000
+    },
+    {
+      "nickname": "현서쿵",
+      "wallet": "0x2260fcED36D6d6e86b998E246335742dAeBaE852",
+      "cus_address": "서울 성동구 둘레15길 7",
+      "orderList": {
+        "id": 2,
+        "storeName": "소문난 성수 감자탕",
+        "wishList": [
+          {
+            "foodname": "감자탕(소)",
+            "cost": 27000,
+            "quantity": 1,
+            "detail": ""
+          },
+          {
+            "foodname": "뼈추가",
+            "cost": 11000,
+            "quantity": 1,
+            "detail": ""
+          }
+        ],
+        "cus_address": "서울 성동구 둘레15길 7",
+        "deliveryFee": 1850,
+        "deliveryTip": 500,
+        "distance": 2.7
+      },
+      "BBCoin": 38200
+    },
+    {
+      "nickname": "혀엉",
+      "wallet": "0xFF9898dd0fBE1DaE30018bdEAa09629ae5B936bd",
+      "cus_address": "서울 성동구 둘레15길 7",
+      "orderList": {
+        "id": 3,
+        "storeName": "소문난 성수 감자탕",
+        "wishList": [
+          {
+            "foodname": "감자탕(소)",
+            "cost": 27000,
+            "quantity": 1,
+            "detail": ""
+          },
+          {
+            "foodname": "뼈추가",
+            "cost": 11000,
+            "quantity": 1,
+            "detail": ""
+          }
+        ],
+        "cus_address": "서울 성동구 둘레15길 7",
+        "deliveryFee": 1850,
+        "deliveryTip": 1000,
+        "distance": 1.3
+      },
+      "BBCoin": 38200
+    },
+    {
+      "nickname": "멋쟁이제네시스",
+      "wallet": "0x0000",
+      "cus_address": "서울 성동구 둘레15길 7",
+      "orderList": {
+        "id": 4,
+        "storeName": "소문난 성수 감자탕",
+        "wishList": [
+          {
+            "foodname": "감자탕(소)",
+            "cost": 27000,
+            "quantity": 1,
+            "detail": ""
+          },
+          {
+            "foodname": "뼈추가",
+            "cost": 11000,
+            "quantity": 1,
+            "detail": ""
+          }
+        ],
+        "cus_address": "서울 성동구 둘레15길 7",
+        "deliveryFee": 1850,
+        "deliveryTip": 2000,
+        "distance": 0.8
+      },
+      "BBCoin": 38200
+    },
+    {
+      "nickname": "나는배가고파",
+      "wallet": "0x0000",
+      "cus_address": "서울 성동구 둘레15길 7",
+      "orderList": {
+        "id": 5,
+        "storeName": "소문난 성수 감자탕",
+        "wishList": [
+          {
+            "foodname": "감자탕(소)",
+            "cost": 27000,
+            "quantity": 1,
+            "detail": ""
+          },
+          {
+            "foodname": "뼈추가",
+            "cost": 11000,
+            "quantity": 1,
+            "detail": ""
+          }
+        ],
+        "cus_address": "서울 성동구 둘레15길 7",
+        "deliveryFee": 1850,
+        "deliveryTip": 0,
+        "distance": 1.2
+      },
+      "BBCoin": 38200
+    },
+    {
+      "nickname": "배고픈아기사자",
+      "wallet": "0x0000",
+      "cus_address": "서울 성동구 둘레15길 7",
+      "orderList": {
+        "id": 6,
+        "storeName": "소문난 성수 감자탕",
+        "wishList": [
+          {
+            "foodname": "감자탕(소)",
+            "cost": 27000,
+            "quantity": 1,
+            "detail": ""
+          },
+          {
+            "foodname": "뼈추가",
+            "cost": 11000,
+            "quantity": 1,
+            "detail": ""
+          }
+        ],
+        "cus_address": "서울 성동구 둘레15길 7",
+        "deliveryFee": 1850,
+        "deliveryTip": 0,
+        "distance": 1.2
+      },
+      "BBCoin": 38200
+    },
+    {
+      "nickname": "배고픈열정사자",
+      "wallet": "0x0000",
+      "cus_address": "서울 성동구 둘레15길 7",
+      "orderList": {
+        "id": 7,
+        "storeName": "소문난 성수 감자탕",
+        "wishList": [
+          {
+            "foodname": "감자탕(소)",
+            "cost": 27000,
+            "quantity": 1,
+            "detail": ""
+          },
+          {
+            "foodname": "뼈추가",
+            "cost": 11000,
+            "quantity": 1,
+            "detail": ""
+          }
+        ],
+        "cus_address": "서울 성동구 둘레15길 7",
+        "deliveryFee": 1850,
+        "deliveryTip": 0,
+        "distance": 1.2
+      },
+      "BBCoin": 38200
+    }
+  ],
+
+  "store": [
+    {
+      "id": 0,
+      "storeName": "버거킹",
+      "wallet": "0xc0fcAAAF52B315c88cB681868Fbe2AEC975ACF73",
+      "sto_address": "서울 강남구 선릉로 429",
+      "menu": [
+        {
+          "name": "와퍼",
+          "caption": "맛있는 와퍼세트",
+          "detail": [
+            { "title": "사이즈 선택", "options": ["R", "L"] },
+            { "title": "추가 선택", "options": ["상추", "양파", "버섯"] }
+          ],
+          "price": 5000,
+          "recommend": false,
+          "menuImage": "/images/cheeseburger.jpg"
+        },
+        {
+          "name": "치즈와퍼",
+          "caption": "맛있는 치즈와퍼",
+          "detail": [
+            { "title": "사이즈 선택", "options": ["R", "L"] },
+            { "title": "추가 선택", "options": ["상추", "양파", "버섯"] }
+          ],
+          "price": 8600,
+          "recommend": false,
+          "menuImage": "/images/burger.jpg"
+        },
+        {
+          "name": "제로콜라",
+          "caption": "H662의 추천템",
+          "detail": [{ "title": "사이즈 선택", "options": ["S", "M", "L"] }],
+          "price": 1400,
+          "recommend": true,
+          "menuImage": "/images/zerocoke.png"
+        }
+      ],
+      "nft": [
+        { "title": "친절한 사장님" },
+        { "title": "우리동네 맛집" },
+        { "title": "빠른 조리" }
+      ],
+      "deliveryFee": 990,
+      "isOpen": false
+    },
+    {
+      "id": 1,
+      "storeName": "스타벅스",
+      "wallet": "0xc0fcAAAF52B315c88cB681868Fbe2AEC975ACF73",
+      "sto_address": "서울 강남구 테헤란로64길 18",
+      "menu": [
+        {
+          "name": "아메리카노",
+          "caption": "맛있는 커피를 드세요!",
+          "detail": [
+            { "title": "기본 선택", "options": ["추가", "추가", "추가"] },
+            { "title": "추가 선택", "options": ["추가", "추가"] },
+            { "title": "기타 선택", "options": ["추가"] }
+          ],
+          "price": 4500,
+          "recommend": true,
+          "menuImage": "/images/americano.jpg"
+        },
+        {
+          "name": "라떼",
+          "caption": "맛있는 커피를 드세요!",
+          "detail": [
+            { "title": "기본 선택", "options": ["추가", "추가", "추가"] },
+            { "title": "추가 선택", "options": ["추가", "추가"] },
+            { "title": "기타 선택", "options": ["추가"] }
+          ],
+          "price": 4500,
+          "recommend": true,
+          "menuImage": "/images/latte.jpg"
+        },
+        {
+          "name": "카푸치노",
+          "caption": "맛있는 커피를 드세요!",
+          "detail": [
+            { "title": "기본 선택", "options": ["추가", "추가", "추가"] },
+            { "title": "추가 선택", "options": ["추가", "추가"] },
+            { "title": "기타 선택", "options": ["추가"] }
+          ],
+          "price": 4500,
+          "recommend": false,
+          "menuImage": "/images/capu.jpg"
+        },
+        {
+          "name": "자몽에이드",
+          "caption": "맛있는 커피를 드세요!",
+          "detail": [
+            { "title": "기본 선택", "options": ["추가", "추가", "추가"] },
+            { "title": "추가 선택", "options": ["추가", "추가"] },
+            { "title": "기타 선택", "options": ["추가"] }
+          ],
+          "price": 4500,
+          "recommend": false,
+          "menuImage": "/images/jamong.jpg"
+        }
+      ],
+      "nft": [{ "title": "디저트 맛집" }, { "title": "프랜차이즈" }],
+      "deliveryFee": 1350,
+      "isOpen": false
+    },
+    {
+      "id": 2,
+      "storeName": "써브웨이",
+      "wallet": "0x8bD71D477cC35D93b9648ccAD221084d560F62B4",
+      "sto_address": "서울 강남구 봉은사로 627",
+      "menu": [
+        {
+          "name": "이탈리안 비엠티",
+          "caption": "맛있는 와퍼세트",
+          "detail": [
+            { "title": "기본 선택", "options": ["추가", "추가", "추가"] },
+            { "title": "추가 선택", "options": ["추가", "추가"] },
+            { "title": "기타 선택", "options": ["추가"] }
+          ],
+          "price": 6900,
+          "recommend": true,
+          "menuImage": "/images/italianbmt.jpg"
+        },
+        {
+          "name": "제로콜라",
+          "caption": "설탕이 들어있지 않은 최첨단 콜라",
+          "detail": [
+            { "title": "기본 선택", "options": ["추가", "추가", "추가"] },
+            { "title": "추가 선택", "options": ["추가", "추가"] },
+            { "title": "기타 선택", "options": ["추가"] }
+          ],
+          "price": 2200,
+          "recommend": true,
+          "menuImage": "/images/zerocoke.png"
+        },
+        {
+          "name": "더블 초코칩 쿠키",
+          "caption": "초콜릿이 잔뜩 들어있는 맛있는 쿠키",
+          "detail": [
+            { "title": "기본 선택", "options": ["추가", "추가", "추가"] },
+            { "title": "추가 선택", "options": ["추가", "추가"] },
+            { "title": "기타 선택", "options": ["추가"] }
+          ],
+          "price": 1300,
+          "recommend": false,
+          "menuImage": "/images/chococookie.png"
+        }
+      ],
+      "nft": [{ "title": "친절한 사장님" }, { "title": "우리동네 맛집" }],
+      "deliveryFee": 1850,
+      "isOpen": false
+    },
+    {
+      "id": 3,
+      "storeName": "소담 칼국수",
+      "wallet": "0x74913Ee32a84941A71774439E0A3b581beF378cA",
+      "sto_address": "서울 성동구 성덕정길 131-8",
+      "menu": [
+        {
+          "name": "칼국수",
+          "caption": "수타면",
+          "detail": [
+            { "title": "기본 선택", "options": ["추가", "추가", "추가"] },
+            { "title": "추가 선택", "options": ["추가", "추가"] },
+            { "title": "기타 선택", "options": ["추가"] }
+          ],
+          "price": 8000,
+          "recommend": true,
+          "menuImage": "/images/kalkuksu.jpg"
+        },
+        {
+          "name": "매운 칼국수",
+          "caption": "하바네로 첨가",
+          "detail": [
+            { "title": "기본 선택", "options": ["추가", "추가", "추가"] },
+            { "title": "추가 선택", "options": ["추가", "추가"] },
+            { "title": "기타 선택", "options": ["추가"] }
+          ],
+          "price": 8000,
+          "recommend": true,
+          "menuImage": "/images/hotkalkuksu.jpg"
+        },
+        {
+          "name": "수제비",
+          "caption": "쫄깃",
+          "detail": [
+            { "title": "기본 선택", "options": ["추가", "추가", "추가"] },
+            { "title": "추가 선택", "options": ["추가", "추가"] },
+            { "title": "기타 선택", "options": ["추가"] }
+          ],
+          "price": 8000,
+          "recommend": true,
+          "menuImage": "/images/sujebi.jpg"
+        }
+      ],
+      "nft": [{ "title": "친절한 사장님" }, { "title": "우리동네 맛집" }],
+      "deliveryFee": 1350,
+      "isOpen": false
+    },
+    {
+      "id": 4,
+      "storeName": "소문난 성수 감자탕",
+      "wallet": "0x0000",
+      "sto_address": "서울 성동구 연무장길 45",
+      "menu": [
+        {
+          "name": "감자탕(소)",
+          "caption": "감자뼈 3개",
+          "detail": [
+            { "title": "기본 선택", "options": ["추가", "추가", "추가"] },
+            { "title": "추가 선택", "options": ["추가", "추가"] },
+            { "title": "기타 선택", "options": ["추가"] }
+          ],
+          "price": 27000,
+          "recommend": false,
+          "menuImage": "/images/gamjatang.jpg"
+        },
+        {
+          "name": "감자국",
+          "caption": "감자뼈 1개, 감자 없음",
+          "detail": [
+            { "title": "기본 선택", "options": ["추가", "추가", "추가"] },
+            { "title": "추가 선택", "options": ["추가", "추가"] },
+            { "title": "기타 선택", "options": ["추가"] }
+          ],
+          "price": 12000,
+          "recommend": false,
+          "menuImage": "/images/gamjakuk.jpg"
+        },
+        {
+          "name": "뼈추가",
+          "caption": "뼈 2개 추가",
+          "detail": [
+            { "title": "기본 선택", "options": ["추가", "추가", "추가"] },
+            { "title": "추가 선택", "options": ["추가", "추가"] },
+            { "title": "기타 선택", "options": ["추가"] }
+          ],
+          "price": 11000,
+          "recommend": true,
+          "menuImage": "/images/bbyeo.jpg"
+        }
+      ],
+      "nft": [{ "title": "친절한 사장님" }, { "title": "우리동네 맛집" }],
+      "deliveryFee": 1850,
+      "isOpen": false
+    }
+  ],
+
+  "rider": [
+    {
+      "wallet": "0x8ECa6FB529FBF7104F8fd3A3631ABe7d16a7717F",
+      "nickName": "달리는제네시스",
+      "deliveryArea": "서울 성동구",
+      "deliveryBy": "오토바이",
+      "nft": [{ "title": "빠른 배달" }, { "title": "깔끔한 배달" }],
+      "isWork": false,
+      "orderList": [
+        {
+          "id": "1",
+          "sto_address": "서울 성동구 연무장길 45",
+          "cust_address": "서울 성동구 둘레15길 7",
+          "time": 12,
+          "distance": 1.2,
+          "isFinished": false
+        },
+        {
+          "id": "2",
+          "sto_address": "서울 성동구 연무장길 45",
+          "cust_address": "서울 성동구 둘레15길 7",
+          "time": 12,
+          "distance": 1.2,
+          "isFinished": false
+        },
+        {
+          "id": "3",
+          "sto_address": "서울 성동구 연무장길 45",
+          "cust_address": "서울 성동구 둘레15길 7",
+          "time": 12,
+          "distance": 1.2,
+          "isFinished": false
+        }
+      ]
+    },
+    {
+      "wallet": "0x98f15CeDA933C71252060A1F3ab818DF2a1B43DD",
+      "nickName": "라이더시온",
+      "deliveryArea": "서울 성동구",
+      "deliveryBy": "자동차",
+      "nft": [{ "title": "빠른 배달" }, { "title": "깔끔한 배달" }],
+      "isWork": false,
+      "orderList": [
+        {
+          "id": "1",
+          "sto_address": "서울 성동구 연무장길 45",
+          "cust_address": "서울 성동구 둘레15길 7",
+          "time": 12,
+          "distance": 1.2,
+          "isFinished": false
+        },
+        {
+          "id": "2",
+          "sto_address": "서울 성동구 연무장길 45",
+          "cust_address": "서울 성동구 둘레15길 7",
+          "time": 12,
+          "distance": 1.2,
+          "isFinished": false
+        },
+        {
+          "id": "3",
+          "sto_address": "서울 성동구 연무장길 45",
+          "cust_address": "서울 성동구 둘레15길 7",
+          "time": 12,
+          "distance": 1.2,
+          "isFinished": false
+        }
+      ]
+    },
+    {
+      "wallet": "0x8d88C3cf0Ce706A32F38091a4A9332deaC0423d1",
+      "nickName": "라이더현석",
+      "deliveryArea": "서울 성동구",
+      "deliveryBy": "오토바이",
+      "nft": [{ "title": "빠른 배달" }, { "title": "깔끔한 배달" }],
+      "isWork": false,
+      "orderList": [
+        {
+          "id": "1",
+          "sto_address": "서울 성동구 연무장길 45",
+          "cust_address": "서울 성동구 둘레15길 7",
+          "time": 12,
+          "distance": 1.2,
+          "isFinished": false
+        },
+        {
+          "id": "2",
+          "sto_address": "서울 성동구 연무장길 45",
+          "cust_address": "서울 성동구 둘레15길 7",
+          "time": 12,
+          "distance": 1.2,
+          "isFinished": false
+        },
+        {
+          "id": "3",
+          "sto_address": "서울 성동구 연무장길 45",
+          "cust_address": "서울 성동구 둘레15길 7",
+          "time": 12,
+          "distance": 1.2,
+          "isFinished": false
+        }
+      ]
+    },
+    {
+      "wallet": "0x1164c108719048D8CECE6C1FE9e8a2e345b38b10",
+      "nickName": "라이더가형",
+      "deliveryArea": "서울 성동구",
+      "deliveryBy": "자동차",
+      "nft": [{ "title": "빠른 배달" }, { "title": "깔끔한 배달" }],
+      "isWork": false,
+      "orderList": [
+        {
+          "id": "1",
+          "sto_address": "서울 성동구 연무장길 45",
+          "cust_address": "서울 성동구 둘레15길 7",
+          "time": 12,
+          "distance": 1.2,
+          "isFinished": false
+        },
+        {
+          "id": "2",
+          "sto_address": "서울 성동구 연무장길 45",
+          "cust_address": "서울 성동구 둘레15길 7",
+          "time": 12,
+          "distance": 1.2,
+          "isFinished": false
+        },
+        {
+          "id": "3",
+          "sto_address": "서울 성동구 연무장길 45",
+          "cust_address": "서울 성동구 둘레15길 7",
+          "time": 12,
+          "distance": 1.2,
+          "isFinished": false
+        }
+      ]
+    }
+  ]
+}
