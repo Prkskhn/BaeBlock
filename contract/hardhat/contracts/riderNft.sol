@@ -2,10 +2,10 @@
 
 pragma solidity ^0.8.18;
 
-import "./node_modules/@openzeppelin/contracts/token/ERC1155/ERC1155.sol";
-import "./node_modules/@openzeppelin/contracts/token/ERC1155/extensions/ERC1155Supply.sol";
-import "./node_modules/@openzeppelin/contracts/access/Ownable.sol";
-import "./node_modules/@openzeppelin/contracts/utils/Counters.sol";
+import "../node_modules/@openzeppelin/contracts/token/ERC1155/ERC1155.sol";
+import "../node_modules/@openzeppelin/contracts/token/ERC1155/extensions/ERC1155Supply.sol";
+import "../node_modules/@openzeppelin/contracts/access/Ownable.sol";
+import "../node_modules/@openzeppelin/contracts/utils/Counters.sol";
 
 
 contract delivery is ERC1155Supply,Ownable {
