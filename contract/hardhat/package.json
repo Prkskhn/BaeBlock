@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@nomicfoundation/hardhat-verify": "^1.0.4",
     "@openzeppelin/contracts": "^4.9.2"
   },
   "devDependencies": {

@@ -6,15 +6,15 @@ import "./riderNft.sol";
 import "./storeNft.sol";
 
 
-contract Payment is Ownable {
+contract OrderContract is Ownable {
 // HS-rider 가져오기-----------------------------------------------------------------
    
-    delivery riderContract;
-    store Store;
+    RiderNFT riderContract;
+    StoreNFT storeContract;
 
     constructor(address _riderContractAddr,address _storeContractAddr){
-        riderContract= delivery(payable (_riderContractAddr));
-        Store= store(payable (_storeContractAddr));
+        riderContract= RiderNFT(payable (_riderContractAddr));
+        storeContract= StoreNFT(payable (_storeContractAddr));
     }
 
     uint platformFee = 2;   //플랫폼 수수료
@@ -137,14 +137,14 @@ contract Payment is Ownable {
         return riderContract.getRiderNftTime(msg.sender);
     }
     function getStoreNftTime()public  view returns(uint){
-        return Store.getStoreNftTime(msg.sender);
+        return storeContract.getStoreNftTime(msg.sender);
     }
     //배달선택(setDelivery)이 안되면, nftMarket가서 burn버튼 클릭하고,nft구매버튼으로 민팅팅
     function burnRiderNft()public {       
             riderContract.burn(msg.sender,riderContract.getRiderTokenId(msg.sender));        
     }
     function burnStoreNft()public {       
-            Store.storeBurn(msg.sender,Store.getStoreTokenId(msg.sender));        
+            storeContract.storeBurn(msg.sender,storeContract.getStoreTokenId(msg.sender));        
     }
 
     //web3에서 HS-rider컨트랙트의 getRiderNftTime(address)-getBlockTimeStamp() 값을 usestate변수로 받아 남은 일수 표현
@@ -186,7 +186,7 @@ contract Payment is Ownable {
     function orderComplete(uint _orderID, bool) public {
         
         // store Store = new store();                                            //Genesis.sol 파일 인스턴스화
-        uint nftOwner = Store.getMappingAccount(searchOrder[_orderID].sWallet);                            //tokenId가 저장되는 매핑 함수               
+        uint nftOwner = storeContract.getMappingAccount(searchOrder[_orderID].sWallet);                            //tokenId가 저장되는 매핑 함수               
         require(searchOrder[_orderID].cWallet == msg.sender); // 고객이 음식받음 버튼을 누르면 지급됨
         uint totalFee = (searchOrder[_orderID].deliveryFee *2) + searchOrder[_orderID].deliveryTip;
         // + 일정시간이 지나거나 owner가 눌러줘도 가능하도록

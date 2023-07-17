@@ -8,7 +8,7 @@ import "../node_modules/@openzeppelin/contracts/access/Ownable.sol";
 import "../node_modules/@openzeppelin/contracts/utils/Counters.sol";
 
 
-contract store is ERC1155 {
+contract StoreNFT is ERC1155 {
 
     uint public nftPerAddressLimit = 1; 
     uint ownerMintedCount;  
