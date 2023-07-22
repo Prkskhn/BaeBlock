@@ -36,11 +36,17 @@ export const CustomerPayment = () => {
 
   const onClickOrder = async () => {
     var a = web3.utils.numberToHex(
-      (
-        ((totalFoodCost + Acustomer.deliveryTip + Acustomer.deliveryFee) *
-          10 ** 15) /
-        exchangeRate
+      Number(
+        Number(((totalFoodCost / exchangeRate) * 10 ** 15).toFixed(0)) +
+          Number(
+            ((Acustomer.deliveryFee / exchangeRate) * 10 ** 15).toFixed(0)
+          ) +
+          Number(((Acustomer.deliveryTip / exchangeRate) * 10 ** 15).toFixed(0))
       ).toFixed(0)
+
+      // ((totalFoodCost + Acustomer.deliveryTip + Acustomer.deliveryFee) *
+      //   10 ** 15) /
+      // exchangeRate
     );
     try {
       await window.ethereum.request({
@@ -52,9 +58,13 @@ export const CustomerPayment = () => {
             data: orderContract.methods
               .ordering(
                 "0x74913Ee32a84941A71774439E0A3b581beF378cA" /*스토어 wallet*/,
-                ((totalFoodCost / exchangeRate) * 10 ** 15).toFixed(0),
-                ((Acustomer.deliveryFee / exchangeRate) * 10 ** 15).toFixed(0),
-                ((Acustomer.deliveryTip / exchangeRate) * 10 ** 15).toFixed(0)
+                Number((totalFoodCost / exchangeRate) * 10 ** 15).toFixed(0),
+                Number(
+                  (Acustomer.deliveryFee / exchangeRate) * 10 ** 15
+                ).toFixed(0),
+                Number(
+                  (Acustomer.deliveryTip / exchangeRate) * 10 ** 15
+                ).toFixed(0)
               )
               .encodeABI(),
             gas: "100000",
@@ -74,7 +84,30 @@ export const CustomerPayment = () => {
   const onClickPayment = () => {
     setPayment(!payment);
   };
-
+  useEffect(() => {
+    console.log(
+      "payment",
+      totalFoodCost,
+      Acustomer.deliveryTip,
+      Acustomer.deliveryFee
+    );
+    console.log(
+      "payment",
+      Number(
+        Number(((totalFoodCost / exchangeRate) * 10 ** 15).toFixed(0)) +
+          Number(
+            ((Acustomer.deliveryFee / exchangeRate) * 10 ** 15).toFixed(0)
+          ) +
+          Number(((Acustomer.deliveryTip / exchangeRate) * 10 ** 15).toFixed(0))
+      ).toFixed(0)
+    );
+    console.log(
+      "each",
+      Number(((totalFoodCost / exchangeRate) * 10 ** 15).toFixed(0)) +
+        Number(((Acustomer.deliveryFee / exchangeRate) * 10 ** 15).toFixed(0)) +
+        Number(((Acustomer.deliveryTip / exchangeRate) * 10 ** 15).toFixed(0))
+    );
+  });
   return (
     <div className="bg-[#F8F8F8]">
       <div className="bg-white w-[386px] h-14 absolute z-10"></div>

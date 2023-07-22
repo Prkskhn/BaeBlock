@@ -2,7 +2,7 @@
   "customer": [
     {
       "nickname": "제네시스",
-      "wallet": "0x3b0A2c32055d72803f12BCa33bb53B3AAC4bEcdB",
+      "wallet": "0x8ECa6FB529FBF7104F8fd3A3631ABe7d16a7717F",
       "cus_address": "서울 강남구 선릉로93길 22",
       "orderList": {
         "id": 0,
@@ -230,7 +230,7 @@
     {
       "id": 0,
       "storeName": "버거킹",
-      "wallet": "0xc0fcAAAF52B315c88cB681868Fbe2AEC975ACF73",
+      "wallet": "0x74913Ee32a84941A71774439E0A3b581beF378cA",
       "sto_address": "서울 강남구 선릉로 429",
       "menu": [
         {
