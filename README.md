@@ -19,12 +19,14 @@
 <br>
 
 ## 📚 실행 가이드 및 설치 방법(How to build)
-### 설치/실행 방법
+### 실행 방법
 
 `❗️❗️로컬로 진행 시, DIR root에 .env파일 생성 후 
 REACT_APP_API={폴리곤API키}, REACT_APP_KAKAO_JAVASCRIPT_KEY={카카오맵 API} 입력 참고해주시면 감사하겠습니다!`
+<br>
 
-
+`❗️❗️메타마스크 네트워크는 Matic Mumbaifh 이고 실행 전, 다음 링크를 통해 Matic을 충전 하실 수 있습니다.` [Matic 충전 링크](https://faucet.polygon.technology/)
+<br>
 
 
 <br>
