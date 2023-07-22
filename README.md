@@ -49,6 +49,8 @@ REACT_APP_API={폴리곤API키}, REACT_APP_KAKAO_JAVASCRIPT_KEY={카카오맵 AP
 ```
 
 </div>
+</details>
+
 <details>
 <summary>3. 새로들어온 주문목록에서 주문을 선택,배달시작.</summary>
 <div markdown="1">
@@ -58,6 +60,8 @@ REACT_APP_API={폴리곤API키}, REACT_APP_KAKAO_JAVASCRIPT_KEY={카카오맵 AP
 ```
 
 </div>
+</details>
+
 <details>
 <summary>4. 진행중인 배달목록에서 배달 완료.</summary>
 <div markdown="1">
@@ -67,6 +71,8 @@ REACT_APP_API={폴리곤API키}, REACT_APP_KAKAO_JAVASCRIPT_KEY={카카오맵 AP
 ```
 
 </div>
+</details>
+
 <details>
 <summary>5. 고객 계정의 마이페이지(로켓아이콘)에서 주문 내역을 확인합니다.</summary>
 <div markdown="1">
@@ -75,7 +81,6 @@ REACT_APP_API={폴리곤API키}, REACT_APP_KAKAO_JAVASCRIPT_KEY={카카오맵 AP
 * 주문 내역에서  배달완료 버튼을 눌러 라이더와 가게에게 컨트랙트에 묶여있던 돈을 보내줍니다.
 ```
 </div>
-
 </details>
 
 <br>
