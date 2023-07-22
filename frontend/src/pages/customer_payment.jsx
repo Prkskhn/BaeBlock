@@ -37,11 +37,11 @@ export const CustomerPayment = () => {
   const onClickOrder = async () => {
     var a = web3.utils.numberToHex(
       Number(
-        Number(((totalFoodCost / exchangeRate) * 10 ** 15).toFixed(0)) +
+        Number(Math.floor((totalFoodCost / exchangeRate) * 10 ** 15)) +
           Number(
-            ((Acustomer.deliveryFee / exchangeRate) * 10 ** 15).toFixed(0)
+            Math.floor((Acustomer.deliveryFee / exchangeRate) * 10 ** 15)
           ) +
-          Number(((Acustomer.deliveryTip / exchangeRate) * 10 ** 15).toFixed(0))
+          Number(Math.floor((Acustomer.deliveryTip / exchangeRate) * 10 ** 15))
       ).toFixed(0)
 
       // ((totalFoodCost + Acustomer.deliveryTip + Acustomer.deliveryFee) *
@@ -58,12 +58,14 @@ export const CustomerPayment = () => {
             data: orderContract.methods
               .ordering(
                 "0x74913Ee32a84941A71774439E0A3b581beF378cA" /*스토어 wallet*/,
-                Number((totalFoodCost / exchangeRate) * 10 ** 15).toFixed(0),
                 Number(
-                  (Acustomer.deliveryFee / exchangeRate) * 10 ** 15
+                  Math.floor((totalFoodCost / exchangeRate) * 10 ** 15)
                 ).toFixed(0),
                 Number(
-                  (Acustomer.deliveryTip / exchangeRate) * 10 ** 15
+                  Math.floor((Acustomer.deliveryFee / exchangeRate) * 10 ** 15)
+                ).toFixed(0),
+                Number(
+                  Math.floor((Acustomer.deliveryTip / exchangeRate) * 10 ** 15)
                 ).toFixed(0)
               )
               .encodeABI(),
@@ -93,19 +95,20 @@ export const CustomerPayment = () => {
     );
     console.log(
       "payment",
+
       Number(
-        Number(((totalFoodCost / exchangeRate) * 10 ** 15).toFixed(0)) +
+        Number(Math.floor((totalFoodCost / exchangeRate) * 10 ** 15)) +
           Number(
-            ((Acustomer.deliveryFee / exchangeRate) * 10 ** 15).toFixed(0)
+            Math.floor((Acustomer.deliveryFee / exchangeRate) * 10 ** 15)
           ) +
-          Number(((Acustomer.deliveryTip / exchangeRate) * 10 ** 15).toFixed(0))
+          Number(Math.floor((Acustomer.deliveryTip / exchangeRate) * 10 ** 15))
       ).toFixed(0)
     );
     console.log(
       "each",
-      Number(((totalFoodCost / exchangeRate) * 10 ** 15).toFixed(0)) +
-        Number(((Acustomer.deliveryFee / exchangeRate) * 10 ** 15).toFixed(0)) +
-        Number(((Acustomer.deliveryTip / exchangeRate) * 10 ** 15).toFixed(0))
+      Number(Math.floor((totalFoodCost / exchangeRate) * 10 ** 15)),
+      Number(Math.floor((Acustomer.deliveryFee / exchangeRate) * 10 ** 15)),
+      Number(Math.floor((Acustomer.deliveryTip / exchangeRate) * 10 ** 15))
     );
   });
   return (
