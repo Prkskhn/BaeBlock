@@ -74,7 +74,7 @@ const CustomerOrderList = (props) => {
           <div className="text-purple font-bold rounded-xl">{state}</div>
         )}
       </div>
-      <div className="text-body font-bold mt-2">
+      {/* <div className="text-body font-bold mt-2">
         주문한 음식
         <div className="text-body font-thin">
           {order[0].orderMenu.map((v) => (
@@ -83,7 +83,7 @@ const CustomerOrderList = (props) => {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
       <div className="mt-2 flex justify-between text-body font-bold">
         <div>총 결제금액</div>
         <div className="ml-2">

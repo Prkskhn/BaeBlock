@@ -27,17 +27,15 @@ const CustomerMypage = () => {
         </div>
       </div>
       <div className="flex flex-col justify-center items-center mt-14">
-        {User.customer.map((v, i) =>
-          v.wallet.toLowerCase() === account.toLowerCase() ? (
-            <CustomerOrderList
-              key={i}
-              storeName={v.orderList.storeName}
-              foodPrice={calculateTotalCost(i)}
-              deliveryFee={v.orderList.deliveryFee}
-              deliveryTip={v.orderList.deliveryTip}
-            />
-          ) : null
-        )}
+        {User.customer.map((v, i) => (
+          <CustomerOrderList
+            key={i}
+            storeName={v.orderList.storeName}
+            foodPrice={calculateTotalCost(i)}
+            deliveryFee={v.orderList.deliveryFee}
+            deliveryTip={v.orderList.deliveryTip}
+          />
+        ))}
       </div>
     </div>
   );
